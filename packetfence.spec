@@ -1,7 +1,7 @@
 Name:  packetfence
-Summary: Prey is a lightweight application for tracking your stolen laptop
+Summary: PacketFence network registration / worm mitigation system
 Version: 3.0.0
-Release: %mkrel 2
+Release: %mkrel 3
 License: GPL
 Group: Monitoring
 Source0: http://www.packetfence.org/downloads/PacketFence/src/%{name}-%{version}.tar.gz
@@ -86,7 +86,7 @@ as
 
 
 %package remote-snort-sensor
-Group: System Environment/Daemons
+Group: Monitoring
 Requires: perl >= 5.8.0, snort, perl(File::Tail), perl(Config::IniFiles), perl(IO::Socket::SSL), perl(XML::Parser), perl(Crypt::SSLeay)
 Requires: perl-SOAP-Lite
 Summary: Files needed for sending snort alerts to packetfence
