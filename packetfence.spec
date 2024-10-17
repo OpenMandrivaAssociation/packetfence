@@ -5,7 +5,7 @@ Release: %mkrel 3
 License: GPL
 Group: Monitoring
 Source0: http://www.packetfence.org/downloads/PacketFence/src/%{name}-%{version}.tar.gz
-URL:	http://www.packetfence.org
+URL:	https://www.packetfence.org
 BuildArch: noarch
 BuildRequires: gettext, httpd, perl-Parse-RecDescent
 Requires: chkconfig, coreutils, grep, iproute2, openssl
