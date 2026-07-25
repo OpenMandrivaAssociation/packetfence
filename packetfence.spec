@@ -1,7 +1,7 @@
 Name:  packetfence
 Summary: PacketFence network registration / worm mitigation system
 Version: 3.0.0
-Release: %mkrel 3
+Release: 4
 License: GPL
 Group: Monitoring
 Source0: http://www.packetfence.org/downloads/PacketFence/src/%{name}-%{version}.tar.gz
